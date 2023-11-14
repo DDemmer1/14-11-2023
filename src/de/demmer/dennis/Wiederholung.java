@@ -73,7 +73,7 @@ public class Wiederholung {
 			System.out.println(eingabe + " ist keine Option");
 			break;
 		}
-		
+
 		
 		
 		
