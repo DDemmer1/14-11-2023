@@ -21,6 +21,8 @@ public class Wiederholung {
 		//--Conditionals--
 		
 		
+		//if else wird sehr häufig benutzt
+		
 		// Text-Messenger. Max. 40 Zeichen pro Nachricht
 		int limit = 40;
 		
@@ -35,6 +37,41 @@ public class Wiederholung {
 			System.out.println("Nachricht wurde verschickt");
 		} else {
 			System.out.println("Error");
+		}
+		
+		
+		//switch case statement
+		
+		//switch -> STRG + LEERTASTE -> doppelklick auf "switch case statement"
+		
+		
+		/*
+		 * Szenario:
+		 * "Wählen sie folgende Option:"
+		 * 
+		 * 1. Kundensupport
+		 * 2. FAQ
+		 * 3. Neustarten
+		 * 
+		 */
+		
+		
+		int eingabe = 2;
+		
+		switch (eingabe) {
+		case 1:
+			System.out.println("Der Kundensupport wird kontaktiert!");
+			break;
+		case 2:
+			System.out.println("FAQ wird geladen...");
+			break;
+		case 3:
+			System.out.println("Das Programm wird neugestartet");
+			break;
+
+		default:
+			System.out.println(eingabe + " ist keine Option");
+			break;
 		}
 		
 		
