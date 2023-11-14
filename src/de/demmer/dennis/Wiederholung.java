@@ -27,8 +27,7 @@ public class Wiederholung {
 			//User Nachricht
 			String message = "Hallo Sabine, wie geht es dir?";
 		
-//		int messageLength = message.length();
-		int messageLength = -1;
+		int messageLength = message.length();
 		
 		if(messageLength > limit) {
 			System.out.println("Nachricht zu lang");
